@@ -1,4 +1,20 @@
 .row-customize-experience{
     background-color:#ece0ce;
     display:flex;
+    justify-content:center;
+    padding: 40px;
+    align-items: center;
+}
+.card{
+   width: 300px;
+   height:400px;
+   border-radius:0;
+}
+.card-body h3{
+    color:#03363d;
+}
+.row-customize-experience col {
+    padding:10px;
+    background-color: ;
+
 }
