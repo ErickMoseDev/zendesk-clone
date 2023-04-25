@@ -1,4 +1,4 @@
-.row-customize-experience{
+/* .row-customize-experience{
     background-color:#ece0ce;
     display:flex;
     justify-content:center;
@@ -15,6 +15,29 @@
 }
 .row-customize-experience col {
     padding:10px;
-    background-color: ;
-
+    
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.suiteplans {
+  background-color: fff;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+.plans h5 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #03363d;
+  line-height: 22px;
+}
+.plans h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #03363d;
+  line-height: 56px;
 }
