@@ -23,21 +23,97 @@
   padding: 0;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
-.suiteplans {
-  background-color: fff;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px;
+html {
+  background-color: #f8f9f9;
 }
-.plans h5 {
+.suiteplans {
+  background-color: #fff;
+  display: flex;
+  /* justify-content: center; */
+  margin: 40px;
+  padding: 40px;
+}
+/* .plans h6 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #03363d;
+  line-height: 22px;
+} */
+.plans h6 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #03363d;
+  line-height: 56px;
+}
+.plans p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #03363d;
+  line-height: 26px;
+}
+.basic{
+  text-align: end;
+}
+.basic p {
   font-weight: 700;
   font-size: 14px;
   color: #03363d;
   line-height: 22px;
 }
-.plans h1 {
-  font-weight: 700;
-  font-size: 48px;
+.basic a {
+  font-weight: 600;
+  font-size: 18px;
   color: #03363d;
-  line-height: 56px;
+  line-height: 28px;
+}
+.basic a:hover {
+  color: #06615a;
+}
+
+/* selected link */
+.basic a:active {
+  color: #06615a;
+}
+p .circleplan {
+  height: 200px;
+  width: 200px;
+  background-color: #587052;
+  border-radius: 50%;
+  color:#fff;
+  rotate: 180deg;
+}
+.grid-container{
+  display: flex;
+}
+.grid-item-1{
+  border-bottom:1px solid #03363d;
+  border-right: 1px solid #03363d;
+
+  width: 25%;
+}
+.grid-item-2{
+  border-top:2px solid #03363d;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #03363d;
+  width: 25%;
+  font-weight: 600;
+  font-size: 20px;
+  color: #03363d;
+  line-height: 28px;
+  text-align: center;
+}
+.grid-item-3{
+  border-bottom:1px solid #03363d;
+  width: 25%;
+  border-top:0.1px solid #03363d;
+  border-right:0.1px solid #03363d;
+  font-weight: 600;
+  font-size: 20px;
+  color: #03363d;
+  line-height: 28px;
+  text-align: center;
+}
+.grid-item-4{
+  border-bottom:1px solid #03363d;
+  width: 25%;
 }
