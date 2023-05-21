@@ -1,0 +1,33 @@
+.service{
+    display: flex;
+    padding: 10%;
+}
+
+.service-introduction{
+    padding-left: 10%;
+}
+
+.service-introduction__image{
+    padding-right: 10%;
+}
+
+.service-introduction__subtitle{
+    font-size: 250%;
+}
+
+.service-introduction__button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 64px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.service-introduction__button:hover{
+  background-color: rgb(74, 71, 71);
+  color: white;
+}
