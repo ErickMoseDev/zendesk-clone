@@ -1,15 +1,11 @@
+/* SERVICE */
 .service{
     display: flex;
-    padding: 10%;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
 }
 
-.service-introduction{
-    padding-left: 10%;
-}
-
-.service-introduction__image{
-    padding-right: 10%;
-}
 
 .service-introduction__subtitle{
     font-size: 250%;
@@ -31,3 +27,66 @@
   background-color: rgb(74, 71, 71);
   color: white;
 }
+
+
+/* BENEFITS */
+.benefits{
+    background-color: rgba(86, 82, 77, 0.105);
+    padding: 2%;
+}
+
+.benefits__content{
+   width: 70%;
+   margin: auto;
+
+}
+
+.benefits__details{
+    display: flex;
+    justify-content: space-between
+}
+
+.benefits__details-container{
+    width: 30%;
+}
+
+.benefits__details-description{
+    font-size: 12px;
+}
+
+.benefits__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border: rgb(181, 174, 174) solid 1px;
+    border-radius: 65px;
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
+
+.benefits__item{
+    padding: 1%;
+}
+
+.benefits__divider{
+    margin-bottom:5%;
+}
+
+.benefits__navbar{
+    margin-bottom:4%;
+}
+
+.benefits__details-divider{
+    width: 100px; 
+    margin: 0; 
+  }
+
+.benefits__features-list{
+    list-style-type: none;
+}
+
+
+
+
+  
