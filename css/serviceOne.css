@@ -1,4 +1,8 @@
 /* SERVICE */
+*{
+    margin: 0;
+    padding: 0;
+}
 .service{
     display: flex;
     width: 70%;
@@ -86,6 +90,53 @@
     list-style-type: none;
 }
 
+/* customer stories */
+.customer-stories{
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+
+.customer-stories__content{
+    width: 70%;
+    margin: auto;
+}
+
+.customer-stories__testimonial{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-stories__quote{
+    width: 70%;
+}
+
+.customer-stories__header{
+    margin-bottom: 5%;
+}
+
+.customer-stories__quote-text{
+    margin-bottom: 3%;
+    font-size: 200%;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.customer-stories__quote-details{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 3%;
+}
+
+.customer-stories__quote-company-name{
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.customer-stories__read-more-link{
+    color: white;
+}
 
 
 
