@@ -210,7 +210,7 @@
 /* tour section */
 .tour-section{
     padding: 3%;
-    background-color: #f2f2f2;
+    background-color: #f1e9d479;
 }
 
 .tour-section__all{
@@ -249,3 +249,48 @@
     color: white;
     border-radius: 64px;
 }
+
+/* join */
+.join-section{
+    padding: 3%;
+    /* background-color: #faf6e6; */
+}
+
+.join{
+    margin: auto;
+    width: 70%;
+}
+
+.join__content{
+    display: flex;
+    align-items: center;
+}
+
+.join__text{
+    align-items: center;
+    text-align: center;
+}
+
+.join__title{
+    font-size: 70%;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.join__description{
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.join__button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(163, 98, 163);
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 64px;
+    font-size: 10px;
+    cursor: pointer;
+  }
