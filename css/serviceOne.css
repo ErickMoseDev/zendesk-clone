@@ -141,7 +141,7 @@
 /* features */
 
 .features{
-    background-color: rgb(236, 224, 187);
+    background-color: #fcf9eb;
     padding: 3%;
 }
 
@@ -207,5 +207,45 @@
     margin-top: 10%;
 }
 
+/* tour section */
+.tour-section{
+    padding: 3%;
+    background-color: #f2f2f2;
+}
 
-  
+.tour-section__all{
+    width: 50%;
+    margin: auto;
+}
+
+.tour-section__content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.tour-section__title{
+    width: 40%;
+}
+
+.tour-section__description{
+    width: 55%;
+}
+
+.tour-section__title-text{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.tour-section__description-text{
+    font-size: 75%;
+   margin-bottom: 2%;
+}
+
+.tour-section__button{
+    border: none;
+    padding: 2%;
+    background-color: rgb(163, 98, 163);
+    color: white;
+    border-radius: 64px;
+}
