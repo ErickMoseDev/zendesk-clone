@@ -52,7 +52,7 @@ html {
   line-height: 26px;
 }
 .basic{
-  text-align: end;
+  padding-left: 10%;
 }
 .basic p {
   font-weight: 700;
@@ -74,14 +74,23 @@ html {
 .basic a:active {
   color: #06615a;
 }
-p .circleplan {
-  height: 200px;
-  width: 200px;
-  background-color: #587052;
-  border-radius: 50%;
-  color:#fff;
-  rotate: 180deg;
+.circlebasic{
+  position: relative;
 }
+
+ .circleplan {
+  height: 50px;
+  width: 50px;
+  /* background-color: #587052; */
+  border-radius: 50%;
+  /* color:#fff; */
+  position:absolute;
+  transform: rotate(20deg);
+  background-color: red;
+  color: black;
+  
+}
+
 .grid-container{
   display: flex;
 }
@@ -116,4 +125,41 @@ p .circleplan {
 .grid-item-4{
   border-bottom:1px solid #03363d;
   width: 25%;
+}
+.suitetypes div{
+  height:920px;
+  width:400px;
+  border:2px solid black;
+  text-align: center;
+}
+.suitetypes h4{
+  font-weight: 700;
+  font-size: 32px;
+  color: #03363d;
+  line-height: 40px;
+
+}
+.suitetypes p{
+  font-weight: 700;
+  font-size: 24px;
+  color: #03363d;
+  line-height: 24px;
+
+}
+.suitetypes button{
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #03363d;
+  line-height: 21px;
+  color:#fff;
+  border:none;
+  width:200px;
+ 
+}
+ul li{
+  font-weight: 400;
+  font-size: 16px;
+ 
+  line-height: 24px;
+  color:#17494d
 }
