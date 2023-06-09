@@ -1,22 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden;
+
   font-family: var(--text-font);
 }
 
 :root {
+  --heading1: "DM Serif Display", serif;
+  --heading: "Playfair Display", serif;
   --header-font: "Plus Jakarta Sans", sans-serif;
   --text-font: "Public Sans", sans-serif;
-  --black: #16140C;
+  --black: #16140c;
   --white: #ffffff;
   --bg-color: #fefaf2;
   --grey: #999;
   --btn-color: #b42e9f;
+  --light-grey: #ebe3d6;
 }
 
 body {
@@ -29,10 +34,14 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 header {
   width: 100%;
   height: fit-content;
-  border-bottom: 1px solid #ebe3d6;
+  border-bottom: 1px solid var(--light-grey);
   margin: 0 auto;
 }
 
@@ -49,10 +58,6 @@ header .nav-container {
 .logo {
   height: fit-content;
   width: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .logo .logo__image {
@@ -62,7 +67,6 @@ header .nav-container {
 .logo .logo__title {
   font-family: var(--header-font);
   font-size: 1.2rem;
-  margin-top: 5px;
 }
 .secondary-nav {
   max-width: 1100px;
@@ -77,7 +81,6 @@ header .nav-container {
   column-gap: 10px;
 }
 .secondary-nav ul li a {
-  list-style-type: none;
   color: var(--black);
   font-size: 13px;
   font-weight: 500;
@@ -98,7 +101,6 @@ header .nav-container {
 .primary-nav ul li a {
   list-style-type: none;
   color: var(--black);
-
   font-family: var(--header-font);
 }
 
@@ -111,29 +113,122 @@ header .nav-container {
 .cta .cta__free-trial {
   border-radius: 25px;
   border: none;
-  padding: 10px 15px;
+  padding: 10px 20px;
   background-color: var(--btn-color);
   color: var(--white);
-  font-family: var(--text-font);
-  font-weight: 500;
+  font-family: var(--header-font);
+  font-weight: 800;
+  font-size: 15px;
 }
 
 .cta .cta__buy-now {
   border-radius: 25px;
   border: 1px solid var(--black);
-  padding: 10px 15px;
+  padding: 10px 20px;
   background-color: transparent;
   color: var(--black);
+  font-family: var(--header-font);
+  font-weight: 800;
+  font-size: 15px;
+}
+
+/* Hero Section */
+.hero-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.hero-section .hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 60px;
+}
+.hero-grid .left-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.left-grid__heading {
+  font-family: var(--heading);
+  font-size: 4.25rem;
+  line-height: calc(1em + 4px);
+  color: var(--black);
+  font-weight: 700;
+}
+
+.left-grid__sub-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
   font-family: var(--text-font);
-  font-weight: 500;
+  color: var(--black);
+}
+
+.right-grid video {
+  max-width: 100%;
+  object-fit: contain;
+  aspect-ratio: 744/682;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.btn--filled {
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  background-color: var(--btn-color);
+  color: var(--white);
+  font-family: var(--header-font);
+  font-weight: 800;
+  font-size: 18px;
+}
+.btn--outlined {
+  border-radius: 50px;
+  border: 1px solid var(--black);
+  padding: 15px 20px;
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--header-font);
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.partner {
+  padding-top: 20px;
+  border-top: 1px solid var(--light-grey);
+}
+
+.partner__text {
+  font-family: var(--text-font);
+  font-size: large;
+  font-weight: 600;
+}
+
+.partner__text__image {
+  margin-left: 5px;
 }
 
 /* responsive design */
 @media only screen and (min-width: 1400px) {
+}
+
+@media (min-width: 1600px) {
   header .nav-container {
     max-width: 1500px;
   }
   .secondary-nav {
     max-width: 1500px;
+  }
+  .hero-section {
+    max-width: 1500px;
+  }
+  .left-grid__heading {
+    font-size: 88px;
+  }
+  .left-grid__sub-heading {
+    font-size: 24px;
   }
 }
