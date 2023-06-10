@@ -313,7 +313,7 @@ header .nav-container {
   background-color: var(--light);
   display: grid;
   grid-template-columns: 1.2fr 0.3fr 1fr;
-  height: 600px;
+  height: 650px;
   padding: 60px 0;
   margin-bottom: 150px;
   column-gap: 20px;
@@ -385,7 +385,7 @@ header .nav-container {
   .tour {
     max-width: 1500px;
     margin: 0 auto;
-    height: 700px;
+    height: 800px;
     margin-bottom: 150px;
   }
 }
