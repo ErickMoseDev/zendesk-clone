@@ -66,7 +66,7 @@ li {
 }
 
 .sub--heading {
-  font-family: var(--header-font);
+  font-family: var(--text-font);
   font-size: small;
   margin-bottom: 10px;
 }
@@ -172,7 +172,7 @@ header .nav-container {
   cursor: pointer;
 }
 
-/* Hero Section */
+/*============ Hero Section =========================*/
 .hero-section {
   max-width: 1100px;
   margin: 0 auto;
@@ -358,6 +358,26 @@ header .nav-container {
   object-position: left top;
 }
 
+/* ================ Zendesk for service ================== */
+
+.service-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.service {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.service__title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.label {
+  border-bottom: 1px solid var(--light-grey);
+}
+
 /* responsive design */
 @media (min-width: 1600px) {
   header .nav-container {
@@ -387,5 +407,10 @@ header .nav-container {
     margin: 0 auto;
     height: 800px;
     margin-bottom: 150px;
+  }
+
+  .service {
+    max-width: 1500px;
+    margin: 0 auto;
   }
 }
