@@ -63,6 +63,7 @@ li {
   font-weight: 800;
   font-size: 16px;
   cursor: pointer;
+  width: fit-content;
 }
 
 .sub--heading {
@@ -362,7 +363,6 @@ header .nav-container {
 
 .service-section {
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .service {
@@ -433,10 +433,67 @@ header .nav-container {
   padding-top: 10px;
 }
 
-.slider-btn__section__text{
- font-weight: 500;
- font-family: var(--header-font);
- font-size: 1.1rem;
+.slider-btn__section__text {
+  font-weight: 500;
+  font-family: var(--header-font);
+  font-size: 1.1rem;
+}
+
+/* ================== Support Section ================ */
+.support-section {
+  padding: 100px 0;
+}
+.support {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1100px;
+  margin: 0 auto;
+  column-gap: 30px;
+}
+
+.support-video {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.support-video__thumbnail {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.support-video__play-icon {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.support-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 10%;
+}
+.support-text__heading {
+  line-height: calc(1em + 8px);
+}
+
+.support-text__description {
+  font-size: 1.2rem;
 }
 
 /* responsive design */
@@ -480,5 +537,14 @@ header .nav-container {
 
   .carousel-section__quote {
     font-size: 48px;
+  }
+
+  .support {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .support-text__heading {
+    font-size: 4rem;
   }
 }
