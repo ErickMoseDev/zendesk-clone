@@ -209,8 +209,10 @@ ul li {
 }
 .start-ups {
   background-color: #fff;
-  padding: 40px 20px 30px 150px;
-  margin: 35px;
+  padding: 40px 20px 0px 150px;
+  margin-top:35px ;
+  margin-bottom:35px ;
+  /* margin: 35px; */
 }
 .start-zen {
   background-color: #ead6e8;
@@ -228,7 +230,7 @@ ul li {
 .start-fullexp{
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   height: 200px;
   width: 1000px;
   background-color: #F0F0F0;
@@ -245,4 +247,28 @@ ul li {
   border: none;
   flex-direction: row;
   justify-content: center;
+}
+.faqs{
+  margin-top: 55px;
+}
+.faq-text{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding-left: 90px;
+  font-weight: 600;
+  font-size: 20px;
+  list-style: none;
+  line-height: 28px;
+  color: #03363d
+}
+.faq-text-headers{
+  text-align: left;
+  padding-left: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  list-style: none;
+  line-height: 16px;
+  color: #000000;
 }
