@@ -51,7 +51,7 @@ html {
   color: #03363d;
   line-height: 26px;
 }
-.basic{
+.basic {
   padding-left: 10%;
 }
 .basic p {
@@ -74,34 +74,33 @@ html {
 .basic a:active {
   color: #06615a;
 }
-.circlebasic{
+.circlebasic {
   position: relative;
 }
 
- .circleplan {
+.circleplan {
   height: 50px;
   width: 50px;
   /* background-color: #587052; */
   border-radius: 50%;
   /* color:#fff; */
-  position:absolute;
+  position: absolute;
   transform: rotate(20deg);
   background-color: red;
   color: black;
-  
 }
 
-.grid-container{
+.grid-container {
   display: flex;
 }
-.grid-item-1{
-  border-bottom:1px solid #03363d;
+.grid-item-1 {
+  border-bottom: 1px solid #03363d;
   border-right: 1px solid #03363d;
 
   width: 25%;
 }
-.grid-item-2{
-  border-top:2px solid #03363d;
+.grid-item-2 {
+  border-top: 2px solid #03363d;
   border-left: 1px solid #fff;
   border-right: 1px solid #03363d;
   width: 25%;
@@ -111,29 +110,29 @@ html {
   line-height: 28px;
   text-align: center;
 }
-.grid-item-3{
-  border-bottom:1px solid #03363d;
+.grid-item-3 {
+  border-bottom: 1px solid #03363d;
   width: 25%;
-  border-top:0.1px solid #03363d;
-  border-right:0.1px solid #03363d;
+  border-top: 0.1px solid #03363d;
+  border-right: 0.1px solid #03363d;
   font-weight: 600;
   font-size: 20px;
   color: #03363d;
   line-height: 28px;
   text-align: center;
 }
-.grid-item-4{
-  border-bottom:1px solid #03363d;
+.grid-item-4 {
+  border-bottom: 1px solid #03363d;
   width: 25%;
 }
-.suitetypes{
+.suitetypes {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.suitetypes div{
-  height:820px;
-  width:390px;
+.suitetypes div {
+  height: 820px;
+  width: 390px;
   /* border:2px solid black; */
   text-align: center;
   margin-top: 50px;
@@ -142,54 +141,50 @@ html {
   background-color: #fff;
   /* margin-right: 15px; */
 }
-.suitetypes a{
+.suitetypes a {
   font-weight: 600;
   font-size: 18px;
   color: #06615a;
   line-height: 29px;
-
 }
-.suitetypes h4{
+.suitetypes h4 {
   font-weight: 700;
   font-size: 32px;
   color: #03363d;
   line-height: 40px;
-
 }
-.suitetypes p{
+.suitetypes p {
   font-weight: 700;
   font-size: 24px;
   color: #03363d;
   line-height: 24px;
-
 }
-.suitetypes button{
+.suitetypes button {
   font-weight: 700;
   font-size: 14px;
   background-color: #03363d;
   line-height: 21px;
-  color:#fff;
-  border:none;
-  width:200px;
- 
+  color: #fff;
+  border: none;
+  width: 200px;
 }
-#bill{
+#bill {
   font-weight: 400;
   font-size: 14px;
- 
+
   line-height: 21px;
-  color:#03363d
+  color: #03363d;
 }
-ul li{
+ul li {
   font-weight: 400;
   font-size: 16px;
-  list-style: none; 
+  list-style: none;
   line-height: 24px;
-  color:#17494d
+  color: #17494d;
 }
-.addons{
-  height:300px;
-  width:75%;
+.addons {
+  height: 300px;
+  width: 75%;
   margin-top: 50px;
   margin-left: 12%;
   display: flex;
@@ -198,12 +193,29 @@ ul li{
   box-shadow: 5px 10px 8px 10px #f8f9f9;
   background-color: #fff;
   padding: 40px 20px 30px 40px;
-
 }
-.addons-items{
+.addons-items {
   display: flex;
   justify-content: space-evenly;
+
+  font-weight: 400;
+  font-size: 16px;
+  list-style: none;
+  line-height: 24px;
+  color: #17494d;
 }
-.sales-button:hover{
+.sales-button:hover {
   background-color: #06615a;
+}
+.start-ups{
+background-color: #fff;
+margin: 15px;
+}
+.start-zen{
+  background-color: #EAD6E8;
+  height: 100px;
+  width: 75%;
+  padding: 20px 20px 30px 40px;
+  margin-top:20px;
+  text-align: center;
 }
