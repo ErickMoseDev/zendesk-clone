@@ -207,15 +207,42 @@ ul li {
 .sales-button:hover {
   background-color: #06615a;
 }
-.start-ups{
-background-color: #fff;
-margin: 15px;
+.start-ups {
+  background-color: #fff;
+  padding: 40px 20px 30px 150px;
+  margin: 35px;
 }
-.start-zen{
-  background-color: #EAD6E8;
+.start-zen {
+  background-color: #ead6e8;
   height: 100px;
-  width: 75%;
-  padding: 20px 20px 30px 40px;
-  margin-top:20px;
+  width: 80%;
+
+  /* margin-top: 70px; */
   text-align: center;
+}
+.start-icons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.start-fullexp{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  height: 200px;
+  width: 1000px;
+  background-color: #F0F0F0;
+  padding: 40px 20px 30px 40px;
+}
+.start-fullexp-buttons {
+  display: flex;
+  flex-direction: column;
+
+
+}
+.justbuttons{
+  display: flex;
+  border: none;
+  flex-direction: row;
+  justify-content: center;
 }
