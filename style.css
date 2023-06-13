@@ -126,11 +126,28 @@ html {
   border-bottom:1px solid #03363d;
   width: 25%;
 }
+.suitetypes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .suitetypes div{
-  height:920px;
-  width:400px;
-  border:2px solid black;
+  height:820px;
+  width:390px;
+  /* border:2px solid black; */
   text-align: center;
+  margin-top: 50px;
+  margin-left: 15px;
+  box-shadow: 5px 10px 8px 10px #f8f9f9;
+  background-color: #fff;
+  /* margin-right: 15px; */
+}
+.suitetypes a{
+  font-weight: 600;
+  font-size: 18px;
+  color: #06615a;
+  line-height: 29px;
+
 }
 .suitetypes h4{
   font-weight: 700;
@@ -156,10 +173,37 @@ html {
   width:200px;
  
 }
+#bill{
+  font-weight: 400;
+  font-size: 14px;
+ 
+  line-height: 21px;
+  color:#03363d
+}
 ul li{
   font-weight: 400;
   font-size: 16px;
- 
+  list-style: none; 
   line-height: 24px;
   color:#17494d
+}
+.addons{
+  height:300px;
+  width:75%;
+  margin-top: 50px;
+  margin-left: 12%;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  box-shadow: 5px 10px 8px 10px #f8f9f9;
+  background-color: #fff;
+  padding: 40px 20px 30px 40px;
+
+}
+.addons-items{
+  display: flex;
+  justify-content: space-evenly;
+}
+.sales-button:hover{
+  background-color: #06615a;
 }
