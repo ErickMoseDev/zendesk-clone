@@ -4,107 +4,274 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>
       Zendesk: Customer Service Software &amp; Sales CRM | Best in 2023
     </title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- key sections of the home page -->
     <header>
+      <nav class="secondary-nav">
+        <ul>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Product support</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">English (US)</a></li>
+        </ul>
+      </nav>
       <!-- contains a primary and seconday navbar -->
       <div class="nav-container">
-        <nav class="secondary-nav">
-          <ul>
-            <li><a href="#">Sign in</a></li>
-            <li><a href="#">Product support</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">English</a></li>
-          </ul>
-        </nav>
+        <div class="logo">
+          <img
+            src="./assets/zendesk-logo-z.svg"
+            alt="Zendesk logo"
+            class="logo__image"
+          />
+          <h1 class="logo__title">zendesk</h1>
+        </div>
 
         <nav class="primary-nav">
-          <ul>
-            <li><a href="/">Zendesk</a></li>
-          </ul>
           <ul>
             <li><a href="#">Products</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Solutions</a></li>
             <li><a href="#">Demo</a></li>
             <li><a href="#">Resources</a></li>
-            <li><a href="#">Free Trial</a></li>
-            <li><a href="#">Buy now</a></li>
           </ul>
         </nav>
+
+        <div class="cta">
+          <button class="cta__free-trial">Free trial</button>
+          <button class="cta__buy-now">Buy now</button>
+        </div>
       </div>
     </header>
 
     <!-- parent section of the homepage: represents a section of content that forms an independent part of a document  -->
-    <article>
+    <main>
       <!-- homepage hero section -->
-      <section></section>
+      <section class="hero-section">
+        <div class="hero-grid">
+          <div class="left-grid">
+            <h1 class="left-grid__heading">
+              Unlock the power of customer experiences
+            </h1>
+            <p class="left-grid__sub-heading">
+              Build lasting relationships with our complete customer service
+              solution.
+            </p>
 
-      <!-- voted number one section -->
-      <section>
-        <div class="background-image"></div>
-        <div class="foreground">
-          <div class="promo">
-            <div class="first-promo-img">
-              <img
-                src="./assets/g2promo-voted-number-one.png"
-                alt="Voted number one best software"
-              />
+            <div class="cta">
+              <button class="cta__start-free-trial btn--filled">
+                Start your free trial
+              </button>
+              <button class="cta__view-demo btn--outlined">View demo</button>
+            </div>
+          </div>
+          <div class="right-grid">
+            <video autoplay muted>
+              <source src="./assets/hero-v2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="partner">
+          <p class="partner__text">
+            #1 in Digital Customer Service use case by
+            <span class="partner__text__image"
+              ><img src="./assets/logo-gartner.svg" alt="Gartner company logo"
+            /></span>
+          </p>
+        </div>
+      </section>
+
+      <!-- Zendesk info cards -->
+      <section class="info-section">
+        <div class="info">
+          <div class="zendesk-relate">
+            <h2 class="zendesk-relate__sub-heading">NEW AT ZENDESK</h2>
+            <h2 class="zendesk-relate__heading">Zendesk Relate 2023</h2>
+            <p class="zendesk-relate__description">
+              Zendesk Relate, our global customer experience event, showed us
+              the future of intelligent CX. If you missed it, no worries. You
+              can still relive the action. Or check out our product
+              announcements below.
+            </p>
+          </div>
+
+          <div class="announcements">
+            <div class="info-card">
+              <h4 class="info-card__title">Unlock intelligent CX</h4>
+              <p class="info-card__description">
+                Feel the power of AI across your whole customer journey. Our
+                keynote shows you how to get there.
+              </p>
+              <a href="#" class="info-card__link">Watch now</a>
             </div>
 
-            <div class="middle-image-promo">
-              <img
-                src="./assets/g2promo-top-ns-2x.png"
-                alt="Top 100 software products, top 50 customer service products, top 50 products for mid-market"
-              />
+            <!-- card 2 -->
+            <div class="info-card">
+              <h4 class="info-card__title">Meet Zendesk AI</h4>
+              <p class="info-card__description">
+                AI is here to stay, but only Zendesk makes it easy to start.
+                Better support, workflows, and routing—right out of the box.
+              </p>
+              <a href="#" class="info-card__link">AI features</a>
             </div>
-
-            <div class="link"><a href="#">Read more</a></div>
+            <!-- card 3 -->
+            <div class="info-card">
+              <h4 class="info-card__title">Cut costs the smart way</h4>
+              <p class="info-card__description">
+                Find out how to use AI strategically to control costs while
+                maintaining close customer connections.
+              </p>
+              <a href="#" class="info-card__link">Get the playbook</a>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- take a quick intro tour -->
-      <section>
-        <div class="container">
-          <div class="inner-container">
-            <div class="title-desc">
-              <h2>Take a quick tour</h2>
-              <p>
-                The best way to learn about Zendesk is to experience it like a
-                customer. See for yourself how Zendesk makes customer experience
-                easy.
-              </p>
+      <!-- Zendesk tour section -->
+      <section class="tour-section">
+        <div class="tour">
+          <div class="tour-info">
+            <h2 class="tour-info__sub-heading sub--heading">
+              SEE ZENDESK IN ACTION
+            </h2>
+            <h2 class="tour-info__heading main--heading">Take a tour</h2>
+            <p class="tour-info__description">
+              Experience Zendesk like your agents will. Our customer service
+              solution comes with everything you need to provide exceptional
+              support.
+            </p>
+
+            <button class="tour-info__cta btn--outlined">Start my tour</button>
+          </div>
+
+          <div class="tour-illo">
+            <img
+              src="./assets/tour-illo.png"
+              alt="tour illustration"
+              class="tour-illo__image"
+            />
+          </div>
+
+          <div class="tour-dashboard">
+            <img
+              src="./assets/tour-ui.jpg"
+              alt="tour illustration"
+              class="tour-dashboard__image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Zendesk for service -->
+
+      <section class="service-section">
+        <div class="service">
+          <div class="label">
+            <h2 class="label__text sub--heading">ZENDESK FOR SERVICE</h2>
+          </div>
+
+          <h2 class="service__title main--heading">
+            Perfect the customer experience
+          </h2>
+
+          <div class="carousel">
+            <div class="carousel-section">
+              <blockquote class="carousel-section__quote">
+                “We love Zendesk because their API allows us to explore ways to
+                get customer data in front of agents in ways that create a
+                smoother, more personalized experience.”
+              </blockquote>
+              <div class="carousel-section__quote-owner">
+                <div class="user-info">
+                  <p class="user-info__name">Addie Wallace</p>
+                  <p class="user-info__role">
+                    Senior Director of Brand Marketing
+                  </p>
+                </div>
+                <img
+                  src="./assets/logo-WineCom.svg"
+                  alt="company logo of the quote owner"
+                />
+              </div>
             </div>
 
-            <div class="container-with-overlay">
-              <img src="./assets/HomeBuy.png" alt="HomeBuy tour">
-              <div class="inner-card">
-                <img src="./assets/messaging-person-phone.png" alt="Person with phone">
-                <h3>See Zendesk in action</h3>
-                <a href="#">Start tour</a>
+            <div class="carousel-image">
+              <img
+                class="carousel-image__illustration"
+                src="./assets/quote-1-lg.png"
+                alt="Image of the quote owner"
+              />
+            </div>
+          </div>
+
+          <div class="slider-btns">
+            <div class="slider-btn__section">
+              <div class="slider-btn__section__text">
+                Personalize all conversations
+              </div>
+            </div>
+
+            <div class="slider-btn__section">
+              <div class="slider-btn__section__text">
+                Anticipate requests with AI
+              </div>
+            </div>
+
+            <div class="slider-btn__section">
+              <div class="slider-btn__section__text">
+                Adapt to changing needs
+              </div>
+            </div>
+
+            <div class="slider-btn__section">
+              <div class="slider-btn__section__text">
+                Make good decisions with data
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Zendesk use cases -->
-      <section></section>
+      <!-- support section -->
+      <section class="support-section">
+        <div class="support">
+          <div class="support-video">
+            <img
+              src="./assets/video.jpg"
+              alt="video thumbnail"
+              class="support-video__thumbnail"
+            />
+            <div class="support-video__play-icon">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="support-text">
+            <h2 class="support-text__heading main--heading">
+              Take your support personally
+            </h2>
+            <p class="support-text__description">
+              For long-term loyalty, every customer should feel like your only
+              one. Zendesk for Service offers the support features you need to
+              keep customers coming back.
+            </p>
 
-      <!-- customize your experience section -->
-      <section></section>
-
-      <!-- Gartner section -->
-      <section></section>
-
-      <!-- promos -->
-      <section></section>
+            <button class="btn--outlined">Explore all features</button>
+          </div>
+        </div>
+      </section>
 
       <!-- customer experience section -->
       <section></section>
@@ -114,9 +281,9 @@
 
       <!-- Footer call to action -->
       <section></section>
-    </article>
+    </main>
 
-    <!-- Global footer -->
+    <!-- Global footer section -->
     <footer></footer>
   </body>
 </html>
