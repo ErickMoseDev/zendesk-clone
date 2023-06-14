@@ -272,3 +272,32 @@ ul li {
   line-height: 16px;
   color: #000000;
 }
+.zen-products{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 35px;
+  background-color: #F8F9F9;
+}
+.zen-products p{
+      font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        line-height: 22px;
+        color: #03363d;
+}
+.zen-products ul {
+  list-style-type: none;
+  font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    color: #68737d;
+}
+.zen-products a {
+  
+  font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    color: #68737d;
+}
