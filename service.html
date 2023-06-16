@@ -10,12 +10,19 @@
       href="https://api.fontshare.com/v2/css?f[]=plus-jakarta-sans@800,801,201,401,301,501,400,601,500,600,700,701,300,200&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <section class="suiteplans">
-      <div class="plans">
+      <div class="suiteplans__plans">
         <!-- <h5 class="plans__heading">PLANS AND PRICING</h5> -->
-        <h6>Everything you need for <br />best in class service</h6>
+        <p class="suiteplans__plans__heading-6 ">Everything you need for <br />best in class service</h6>
         <br />
         <!-- <p>
           Your complete solution for ticketing, messaging, help <br />
@@ -23,18 +30,21 @@
         </p> -->
       </div>
 
-      <div class="basic">
-        <p class="circlebasic">
-          FOUNDATIONAL SUPPORT ONLY <span class="circleplan">$19</span>
-          <br /><br />
-          <a href="#">Starting at $19/month &#8594;</a>
-        </p>
+      <div class="suiteplans__basic">
+        <div class="suiteplans__circlebasic">
+          <p class="suiteplans__circlebasic__paragraph">FOUNDATIONAL SUPPORT ONLY</p>
+          <span class="suiteplans__circleplan"><p>$19</p></span>
+        </div>
+
+        <p class="suiteplans__basic_paragraph"><a href="#">Starting at $19/month &#8594;</a></p>
         <br /><br />
-        <p>
+        <p class="suiteplans__basic_paragraph">
           ZENDESK FOR SALES <br /><br />
           <a href="#">See Pricing &#8594;</a>
         </p>
       </div>
+
+      
     </section>
 
     <section class="grid">
@@ -842,16 +852,124 @@
       </div>
     </section>
     <hr
-        style="
-          width: 83%;
-          color: #68737d;
-          border-width: 1px;
-          text-align: left;
-          margin-left: 80px;
-        "
-      />
+      style="
+        width: 83%;
+        color: #68737d;
+        border-width: 1px;
+        text-align: left;
+        margin-left: 80px;
+      "
+    />
     <section class="footer">
-
+      <div class="footer-first">
+        <div>
+          <p>Enter the fold</p>
+          <p>Subscribe to our newsletter.</p>
+        </div>
+        <div>
+          <form action="">
+            <label for="email">What's your email?</label>
+            <input type="email" name="" id="" />
+            <button type="submit">Subcribe</button>
+          </form>
+        </div>
+        <div class="social-icons">
+          <div>
+            <a
+              href="//www.twitter.com/zendesk"
+              aria-label="Twitter"
+              role="link"
+            >
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div>
+            <a
+              href="//www.facebook.com/zendesk"
+              aria-label="facebook"
+              role="link"
+            ></a>
+          </div>
+          <div>
+            <a
+              href="//www.linkedIn.com/zendesk"
+              aria-label="linkedIn"
+              role="link"
+            ></a>
+          </div>
+          <div>
+            <a
+              href="//www.youtube.com/zendesk"
+              aria-label="Youtube"
+              role="link"
+            ></a>
+          </div>
+          <div>
+            <a
+              href="//www.instagram.com/zendesk"
+              aria-label="instagram"
+              role="link"
+            ></a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="footer-second">
+        <div>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            >Terms of use</a
+          >
+        </div>
+        <br />
+        <div>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            >Privacy Notice</a
+          >
+        </div>
+        <div>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            >Cookie Notice</a
+          >
+        </div>
+        <div>
+          <a href="http://" target="_blank" rel="noopener noreferrer"
+            >Cookie Settings</a
+          >
+        </div>
+        <div>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            &#169;Zendesk 2023</a
+          >
+        </div>
+      </div>
+      <br /><br />
+      <div class="footer-third">
+        <p
+          style="
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            line-height: 18px;
+            color: #68737d;
+            text-align: left;
+          "
+        >
+          Gartner, Critical Capabilities for the CRM Customer Engagement Center,
+          8 June 2020, Nadine LeBlanc, Brian Manusama <br />
+          Gartner does not endorse any vendor, product or service depicted in
+          its research publications and does not advise technology users to
+          select only those vendors with the highest<br />
+          ratings or other designations. Gartner research publications consist
+          of the opinions of<br />
+          Gartner's Research & Advisory organization and should not be construed
+          as statements of fact. Gartner disclaims all warranties, expressed or
+          implied, with respect to this research, including any warranties of
+          merchantability or fitness for particular purpose. GARTNER is<br />
+          a registered trademark and service mark of Gartner, Inc. and/or its
+          affiliates in the U.S. and internationally and is used herein with
+          permissions. All rights reserved.
+        </p>
+      </div>
     </section>
   </body>
 </html>
